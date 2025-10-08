@@ -1,20 +1,20 @@
-img {
-  display: block;
-  width: 20%;
-}
-
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  padding-top: 100px;
 }
 
-.hero {
-  background: url("media/hero.jpg") center/cover no-repeat;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
 }
 
 .category-card img {
@@ -24,14 +24,12 @@ body {
 }
 
 .section-title {
-  font-size: 2rem;
-  font-weight: bold;
   margin: 2rem 0 1rem;
   text-align: center;
 }
 
 footer {
-  background: #333;
+  background: #d3b891;
   color: white;
   text-align: center;
   padding: 2rem 0;
